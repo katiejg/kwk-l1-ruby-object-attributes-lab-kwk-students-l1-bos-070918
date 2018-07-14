@@ -1,10 +1,12 @@
 # dog.rb
 
-
 class Dog 
- def initialize(name, breed)
-   @name
-   @breed
-end
-def name=(name)
+  
+  attr_accessor :name , :breed 
+   
 end 
+
+
+fido = Dog.new 
+puts fido.name = "Fido"
+puts fido.breed = "Husky"
