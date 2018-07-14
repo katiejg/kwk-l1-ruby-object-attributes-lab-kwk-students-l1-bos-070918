@@ -1,15 +1,7 @@
 # person.rb
 
 class Person
-  def initialize(name)
-    @name
-  end
-  def name=(name)
-    @name
-  end
-  def name
-    @name
-  end
+attr_accessor :name, :job
 end
 
 beyonce = Person.new
