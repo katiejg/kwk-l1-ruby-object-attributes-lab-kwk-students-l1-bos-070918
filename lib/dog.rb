@@ -2,8 +2,10 @@
 
 class Dog 
 attr_accessor :name, :breed
+end
 end 
 
 fido = Dog.new
 fido.name = "Fido"
-fido.breed = "Husky"
+snoopy = Dog.new
+snoopy.breed = "beagle"
