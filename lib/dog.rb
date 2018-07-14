@@ -1,7 +1,7 @@
 # dog.rb
 
 class Dog 
-attr_accessor
+attr_accessor :name, :breed
 end 
 
-fido = Dog.new("Husky", "Fido")
+fido = Dog.new("Fido", "Husky")
